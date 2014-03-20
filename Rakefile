@@ -9,6 +9,6 @@ namespace :post do
 
   desc "new blog post"
   task :new do
-     puts "TODO"
+     s
   end
 end
