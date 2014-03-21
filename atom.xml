@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Michael Deimel</title>
+ <link href="http://www.deimel.de/atom.xml" rel="self"/>
+ <link href="http://stereosupersonic.github.com//"/>
+ <updated>2014-03-21T16:45:14+01:00</updated>
+ <id>http://stereosupersonic.github.com//</id>
+ <author>
+   <name>Michael Deimel</name>
+   <email>micahel@deimel.de</email>
+ </author>
+
+ 
+ <entry>
+   <title>Setup Jekyll with haml</title>
+   <link href="http://stereosupersonic.github.com/2014/03/20/setup-jekyll-with-haml.html"/>
+   <updated>2014-03-20T00:00:00+01:00</updated>
+   <id>http://www.deimel.de/2014/03/20/setup-jekyll-with-haml</id>
+   <content type="html">&lt;h1 id=&quot;setup_jekyll_with_haml&quot;&gt;Setup Jekyll with haml&lt;/h1&gt;
+&lt;p class='meta'&gt;20. März 2014 - Wartenberg&lt;/p&gt;
+&lt;p&gt;some Blah&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Blog Setup</title>
+   <link href="http://stereosupersonic.github.com/2012/03/01/setup-this-blog.html"/>
+   <updated>2012-03-01T00:00:00+01:00</updated>
+   <id>http://www.deimel.de/2012/03/01/setup-this-blog</id>
+   <content type="html">&lt;h1 id=&quot;blog_setup&quot;&gt;Blog Setup&lt;/h1&gt;
+&lt;p class='meta'&gt;01 März 2012 - Wartenberg&lt;/p&gt;
+&lt;p&gt;Nach dem ich schon länger nach einer einfachen Lösung für’s bloggen gesucht habe, bin ich zufällig auf die Kombination von Github-Pages und &lt;a href=&quot;http://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; gestoßen.&lt;/p&gt;
+
+&lt;p&gt;Hier beschreibe ich nun wie ich die erste Version meiner Seite zum Laufen gebracht habe.&lt;/p&gt;
+
+&lt;h2 id=&quot;github_page_eirichten&quot;&gt;Github Page eirichten&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ein Gihub Repository mit &lt;strong&gt;Username&lt;/strong&gt;.github.com anlegen. In meinen Fall &lt;a href=&quot;http://stereosupersonic.github.com&quot;&gt;stereosupersonic.github.com&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;das Projekt lokal erstellen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class='terminal'&gt;&lt;code&gt;
+    mkdir stereosupersonic.github.com  
+    cd stereosupersonic.github.com 
+    git init
+    touch index.html
+    git add index.html   
+    git commit -m 'hompage init' 
+    git remote add origin git@github.com:stereosupersonic/stereosupersonic.github.com.git
+    git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;unter &lt;a href=&quot;http://stereosupersonic.github.com&quot;&gt;http://stereosupersonic.github.com&lt;/a&gt; sollte man einen leere Seite sehen&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;domne_anpassen&quot;&gt;Domäne anpassen&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;eine Datei Namens &lt;strong&gt;CNAME&lt;/strong&gt; anlegen und die Domäne eintragen &lt;em&gt;deimel.de&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;nach github Pushen&lt;/li&gt;
+
+&lt;li&gt;beim Hoster oder DNS-Provider den DNS A record auf &lt;em&gt;stereosupersonic.github.com&lt;/em&gt; zeigen lassen&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;jekyll_einrichten&quot;&gt;Jekyll einrichten&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;gem install jekyll&lt;/li&gt;
+
+&lt;li&gt;die Verzeichnisse &lt;em&gt;”_layouts”&lt;/em&gt;, &lt;em&gt;”_posts”&lt;/em&gt;, &lt;em&gt;css&lt;/em&gt; und &lt;em&gt;images&lt;/em&gt; anlegen&lt;/li&gt;
+
+&lt;li&gt;habe mich hier &lt;a href=&quot;https://github.com/mojombo/mojombo.github.com&quot;&gt;https://github.com/mojombo/mojombo.github.com&lt;/a&gt; inspirieren lassen ;-)&lt;/li&gt;
+
+&lt;li&gt;Pushen&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;ersten_blog_post_schreiben&quot;&gt;ersten Blog Post schreiben&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;im Verzeichnis “_posts” einen neu Datei anlegen im Muster &lt;strong&gt;Jahr-Monat-Tag-titel-ohne-leerzeichen.md&lt;/strong&gt;&lt;/li&gt;
+
+&lt;li&gt;im Header layout: post und title: Mein erster Post eintragen&lt;/li&gt;
+
+&lt;li&gt;mit Markdown den gewünschten Text formatieren&lt;/li&gt;
+
+&lt;li&gt;Pushen&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Erster Blog-Eintrag ist online.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;probleme&quot;&gt;Probleme&lt;/h2&gt;
+
+&lt;p&gt;wenn beim Start der Fehler kommt &lt;em&gt;invalid byte sequence in US-ASCII&lt;/em&gt; in der Bash folgende Variablen setzen: &lt;br /&gt;&lt;code&gt;export LANG=de_DE.UTF-8 &lt;/code&gt; &lt;br /&gt;&lt;code&gt;export LC_ALL=de_DE.UTF-8 &lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;todo&quot;&gt;TODO&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;atom.xml für rss&lt;/li&gt;
+
+&lt;li&gt;rss bei Feedburner eintragen&lt;/li&gt;
+
+&lt;li&gt;Template Engine auf Haml umstellen&lt;/li&gt;
+
+&lt;li&gt;Layout auf Twitter-Bootstrap umstellen&lt;/li&gt;
+&lt;/ol&gt;</content>
+ </entry>
+ 
+ 
+</feed>
