@@ -4,6 +4,7 @@ stereosupersonic.github.com
 # This is the source for [deimel.de](http://deimel.de)
 
 ## Helpful commands
+
 * start server: bundle exec jekyll serve --watch
 * bundle exec github-pages health-check
 

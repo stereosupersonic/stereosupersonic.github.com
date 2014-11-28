@@ -1,4 +1,11 @@
-safe: false
-lsi: false
-pygments: true
-exclude: [Rakefile,TODO,README.md, Gemfile, Gemfile.lock]
+safe:         false
+exclude:      ['Rakefile','TODO','README.md', 'Gemfile',' Gemfile.lock']
+encoding:     "utf-8"
+
+highlighter: pygments
+lsi:         false
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight" ,"strikethrough"]
+
