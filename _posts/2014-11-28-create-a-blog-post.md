@@ -26,10 +26,12 @@ title: My Title
 * start preview server bundle exec jekyll serve --watch
 * open http://0.0.0.0:4000/
 * deploy
+
 <pre class="terminal"><code>
 git commit "my new blog post"
 git push origin master"
 </code></pre>
+
 [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 [Markdown Help](https://help.github.com/articles/markdown-basics)
