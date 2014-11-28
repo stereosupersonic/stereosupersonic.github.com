@@ -19,7 +19,7 @@ title: My Title
 
 ```
 
-* add content with markdown
+* add content with [Markdown]({% post_url 2014-11-28-github-flavored-markdown %})
 * start preview server bundle exec jekyll serve --watch
 * open http://0.0.0.0:4000/
 * deploy
