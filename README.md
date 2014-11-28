@@ -10,7 +10,10 @@ stereosupersonic.github.com
 
 ## tips
 
-* link to an article ```[Markdown]({% post_url 2014-11-28-github-flavored-markdown %})´´
+* link to an article
+```
+[Markdown]({% post_url 2014-11-28-github-flavored-markdown %})
+```
 
 ## Helpful Links Githup Pages
 [Setup Githup Pages](https://help.github.com/articles/using-jekyll-with-pages)
