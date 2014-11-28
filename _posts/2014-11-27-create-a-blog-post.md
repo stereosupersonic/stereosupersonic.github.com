@@ -8,13 +8,6 @@ title: Create a blog post
 
 <p class="meta">27. November 2014 - Wartenberg</p>
 
-```ruby
-if true
-  doit
-else
-  asdf
-end
-```
 * create a new file under _posts format: YYYY-MM-DD-title.md
 * add a header like
 
