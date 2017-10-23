@@ -2,7 +2,7 @@ safe:         false
 exclude:      ['Rakefile','TODO','README.md', 'Gemfile',' Gemfile.lock']
 encoding:     "utf-8"
 
-highlighter: pygments
+highlighter: rouge
 lsi:         false
 
 markdown: redcarpet
