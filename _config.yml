@@ -8,3 +8,6 @@ lsi:         false
 markdown: kramdown
 
 theme: jekyll-theme-hacker
+
+title: Michael Deimel
+description: No comment
