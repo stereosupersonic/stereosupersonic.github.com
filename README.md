@@ -15,6 +15,10 @@ stereosupersonic.github.com
 [Markdown]({% post_url 2014-11-28-github-flavored-markdown %})
 ```
 
+## layout
+
+https://github.com/pages-themes/hacker
+
 ## Helpful Links Githup Pages
 [Setup Githup Pages](https://help.github.com/articles/using-jekyll-with-pages)
 
@@ -30,4 +34,3 @@ stereosupersonic.github.com
 [GitHub Markdown](https://help.github.com/articles/github-flavored-markdown)
 
 [Writing on GitHub](https://help.github.com/articles/writing-on-github)
-

@@ -11,3 +11,4 @@ theme: jekyll-theme-hacker
 
 title: Michael Deimel
 description: No comment
+show_downloads: false
