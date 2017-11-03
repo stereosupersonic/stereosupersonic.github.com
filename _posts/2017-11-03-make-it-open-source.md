@@ -11,7 +11,7 @@ this is a small checklist for open sourcing a project on Github
 ## Steps
 
 1. Make your github project public.
- * go to the *Settings* page
+  * go to the *Settings* page
 
 2. Create a meaningfully README
   [Here is a template](https://gist.github.com/stereosupersonic/00be9ab2a0bc0accaf68aade53815dbf)
