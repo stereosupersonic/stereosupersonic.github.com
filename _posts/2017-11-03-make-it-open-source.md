@@ -9,8 +9,8 @@ title: Make it OpenSource
 this is a small checklist for open sourcing a project on Github
 
 ## Steps
-1. Make your github project public.
 
+1. Make your github project public.
  * go to the *Settings* page
 
 2. Create a meaningfully README
@@ -24,8 +24,6 @@ this is a small checklist for open sourcing a project on Github
 4. Setup Travis
   * login to travis and enable your project
   * add the build info on top of your README
-
   ```  
-[Status](https://travis-ci.org/YOURNAME/PROJECT.svg)](https://travis-ci.org/YOURNAME/PROJECT)
-https://travis-ci.org/YOURNAME/PROJECT
+  [Status](https://travis-ci.org/YOURNAME/PROJECT.svg)](https://travis-ci.org/YOURNAME/PROJECT)
   ```
