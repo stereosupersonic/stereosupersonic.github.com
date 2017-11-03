@@ -6,9 +6,6 @@ title: Codewars Katas
 {{ page.title }}
 ================
 
-
-# Codewars Katas
-
 Sometimes I challenge my self and try one of the code katas from [coderwars](http://www.codewars.com/). I'll try to finish it within one [pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) means 25 minutes. The setup on my local machine looks like this:
 
 * go to my katas dir and create a new folder

@@ -6,8 +6,6 @@ title: Make it Open Source
 {{ page.title }}
 ================
 
-# Make it Open Soure
-
 this is a small checklist for open sourcing a project on Github
 
 ## Steps
