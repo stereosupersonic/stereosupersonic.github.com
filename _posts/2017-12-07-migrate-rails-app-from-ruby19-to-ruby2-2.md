@@ -12,7 +12,9 @@ from ruby 1.9.3 to ruby 2.2.
 ## Problems
 
 1. YAML serializer was moved from Syck to Psych. There are some issues with utf-8 encodings.
-  script to migrate to Psych
+
+script to migrate to Psych:
+  
   ```
   require "ruby-progressbar"
   require "syck"
@@ -48,7 +50,7 @@ from ruby 1.9.3 to ruby 2.2.
   end
 
   puts "fixed:#{fixed}/#{total}"
-```
+  ```
 
 2. ```iconv``` must be added to the Gemfile
 
