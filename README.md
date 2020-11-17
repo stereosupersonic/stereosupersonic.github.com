@@ -34,3 +34,7 @@ https://github.com/pages-themes/hacker
 [GitHub Markdown](https://help.github.com/articles/github-flavored-markdown)
 
 [Writing on GitHub](https://help.github.com/articles/writing-on-github)
+
+## atom feed
+
+i use https://github.com/jekyll/jekyll-feed
