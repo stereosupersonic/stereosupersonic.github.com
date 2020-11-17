@@ -28,6 +28,8 @@ https://github.com/pages-themes/hacker
 
 [Jekyll](http://github.com/mojombo/jekyll)
 
+[Jekyll Plugins](https://pages.github.com/versions)
+
 ## Helpful Links Markdown
 [Markdown Help](https://help.github.com/articles/markdown-basics)
 
