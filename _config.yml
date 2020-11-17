@@ -9,6 +9,9 @@ markdown: kramdown
 
 theme: jekyll-theme-hacker
 
-title: Michael Deimel
+title: Michael Deimels Blog
 description: No comment
 show_downloads: false
+url: https://deimel.de
+plugins:
+  - jekyll-feed
