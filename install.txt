@@ -1,0 +1,3 @@
+# install basic
+
+bash <(curl -Ls https://gist.githubusercontent.com/stereosupersonic/43367f3934b6de2354779aa1744b4fcc/raw/setup.sh)
